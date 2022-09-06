@@ -20,7 +20,12 @@ body{
     cursor: pointer;
     font-size: 20px;
 }
-
+#close-modal:active, #open-modal:active{
+    background: rgb(250, 236, 220);
+    color: black;
+    border: 1px solid papayawhip;
+    border-radius: 4px;
+}
 #overlay{
     display: none;
     width: 100%;
