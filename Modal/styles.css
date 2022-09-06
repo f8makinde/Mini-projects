@@ -19,6 +19,7 @@ body{
     color: white;
     cursor: pointer;
     font-size: 20px;
+    margin-top: 10px;
 }
 #close-modal:active, #open-modal:active{
     background: rgb(250, 236, 220);
