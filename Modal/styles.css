@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+#modal{
+    background: white;
+    display: none;
+}
+#close-modal, #open-modal{
+    background: royalblue;
+    border: none;
+    padding: 15px;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
