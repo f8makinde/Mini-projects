@@ -1,9 +1,9 @@
 body{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #modal{
     background: white;
-    display: none;
 }
 #close-modal, #open-modal{
     background: royalblue;
@@ -13,4 +13,7 @@ body{
     color: white;
     cursor: pointer;
     font-size: 20px;
+}
+#overlay{
+    display: none;
 }
