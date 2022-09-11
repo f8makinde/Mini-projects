@@ -2,12 +2,12 @@
     max-width: 600px;
     position: relative;
 }
-.carousel-item{
+.carousel, .carousel-item{
     display: none;
     max-width: 600px;
     width: 100%;
 }
-.carousel-item-visible{
+.carousel, .carousel-item-visible{
     display: block;
 }
 .carousel-actions{
