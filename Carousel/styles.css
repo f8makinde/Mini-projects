@@ -1,0 +1,12 @@
+.carousel{
+    max-width: 600px;
+    position: relative;
+}
+.carousel-item{
+    display: none;
+    max-width: 600px;
+    width: 100%;
+}
+.carousel-item-visible{
+    display: block;
+}
