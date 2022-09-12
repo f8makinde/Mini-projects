@@ -3,8 +3,7 @@ let slidePosition =  0;
 const totalSlides = slides.length;
 
 document.getElementById("carousel-button-next").addEventListener("click", moveToNextSlide);
-document.getElementById("carousel-button-prev").addEventListener("click", moveToPrevSlide);
-
+document.getElementById("carousel-button-prev").addEventListener("click", moveToPrevSlide)
 function moveToNextSlide(){
     hideAllSlides();
     if(slidePosition === totalSlides - 1){
@@ -21,8 +20,5 @@ function hideAllSlides(){
         slide.classList.add("carousel-item-hidden")
     }
 }
-function moveToPrevSlide(){
-    console.log("move the prev button")
-}
-console.log(totalSlides);
+
 
