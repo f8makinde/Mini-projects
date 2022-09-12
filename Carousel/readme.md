@@ -47,3 +47,13 @@
     3) Within our function 'moveToNextSlide' we have a conditional, after the conditional, we want to add the class name of 'carousel-item-visible' to our current slide! 'carousel-item-visible' is our CSS class that makes the 'carousel-item' a block element (and not hidden) and shows it!
     3.1) Use 'slidePosition' to access the current array element in 'slides', and then add the class name 'carousel-item-visible', accessing an array element is as simple as 'slides[slidePosition]'
     4) Test out your next button by clicking on it, you'll see there's some clean up to do in the next Scrimba cast!
+
+    /*
+    Hiding non-active slides
+    
+    1) In our 'styles.css', add a new class 'carousel-item-hidden' that is set to display none
+    2) Create a new function called 'hideAllSlides'
+    3) Inside 'hideAllSlides' use a 'for of loop' to iterate through the slides (each iteration will give you direct access to 'carousel-item')
+    4) When inside the 'for of loop', remove the class 'carousel-item-visible' and add the class 'carousel-item-hidden' - all our slides will now be hidden, and inside 'moveToNextSlide' at the end, we add back the slide we want visible!
+    5) Call 'hideAllSlides' right away within the function 'moveToNextSlide' - make sure it's before any other code!
+*/
