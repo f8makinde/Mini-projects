@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    width: 100%;
+  
+}
+.col-1{
+    background-image: url("images/dark-ribs.jpg");
+    background-size: cover;
+    padding: 3.75em 4em;
+    width: 70%;
+     min-height: 500px;
+}
