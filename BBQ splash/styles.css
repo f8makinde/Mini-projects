@@ -7,12 +7,13 @@ body{
     text-align: center;
     margin: 0;
 }
-
-.container-intro{
+  .col-1{
     background-image: url("images/dark-ribs.jpg");
     background-size: cover;
     background-position: center;
     padding: 0 .5em 2em;
+  }
+.container-intro{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,6 +68,20 @@ strong{
     max-width: 400px;
     margin: 0 auto;
 }
+.email-collector{
+    width: 80%;
+    max-width: 300px;
+}
+
+ input, .btn{
+    width: 100%;
+ }
+ input{
+    margin-bottom: .75em;
+    font-family: inherit;
+    text-align: inherit;
+    padding: .25em;
+ }
 @media (min-width: 500px) {
     body {
         font-size: 1.125rem;
@@ -92,6 +107,7 @@ strong{
         justify-content: center;
     }
     .container-intro{
-        height: 100vh;
+        height: 100%;
+
     }
 }
