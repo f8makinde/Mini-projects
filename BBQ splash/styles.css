@@ -8,16 +8,17 @@ body{
 .col-1{
     background-image: url("images/dark-ribs.jpg");
     background-size: cover;
-    padding: 0 .25em 1em;
+    background-position: center;
+    padding: 0 .5em 2em;
     display: flex;
     flex-direction: column;
 }
 h1{
-   
     font-size: 2.25rem;
     color: #FFFFFF;
     font-weight: 300;
     order: 2;
+    margin: 2em 0;
 }
 h1 + p{
 
@@ -26,15 +27,18 @@ h1 + p{
         color: #F18119;
         text-transform: uppercase;
         order: 3;
+        margin: 0;
 }
 h2 {
     font-size: 1.3125rem;
+    margin: 0;
 }
 h2 + p {
     color: #F18119;
     font-size: 1rem;
     font-weight: 900;
     text-transform: uppercase;
+    margin-top: 0;
 }
 .top-text{
     font-size: 0.625rem;
@@ -50,4 +54,24 @@ h2 + p {
 }
 strong{
     font-weight: 900;
+}
+.main-content{
+  padding: 2em 1em;
+}
+@media (min-width: 500px) {
+    body {
+        font-size: 1.125rem;
+        display: flex;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2,
+    h1 + p {
+        font-size: 1.75rem;
+    }
+    .col-1, .main-content{
+        width: 50%;
+    }
 }
