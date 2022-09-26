@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
@@ -62,6 +66,7 @@ strong{
     body {
         font-size: 1.125rem;
         display: flex;
+       
     }
     h1 {
         font-size: 3.5rem;
@@ -73,5 +78,12 @@ strong{
     }
     .col-1, .main-content{
         width: 50%;
+        min-height: 100vh;
+        box-sizing: border-box;
+    }
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
