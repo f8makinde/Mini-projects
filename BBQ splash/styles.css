@@ -1,3 +1,7 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
 .container{
     display: flex;
     width: 100%;
@@ -6,7 +10,24 @@
 .col-1{
     background-image: url("images/dark-ribs.jpg");
     background-size: cover;
-    padding: 3.75em 4em;
-    width: 70%;
-     min-height: 500px;
+    padding: 3em 4em;
+  
+}
+h1{
+   
+    font-size: 2.25rem;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+h1 + p{
+
+        font-size: 1.3125rem;
+        font-weight: 900;
+        color: #F18119;
+}
+h2 {
+    font-size: 1.3125rem;
+}
+strong{
+    font-weight: 900;
 }
